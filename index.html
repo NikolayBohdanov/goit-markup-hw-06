@@ -496,6 +496,53 @@
             <use href="./images/sprite.svg#icon-button"></use>
           </svg>
         </button>
+        <h2 class="modal-text">Залиште свої дані, ми вам передзвонимо</h2>
+        <form name="call_back" class="call-back"></form>
+        <div class="form-field">
+          <label for="name">Ім'я</label>
+          <input type="text" name="name" id="name" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/sprite.svg#icon-name"></use>
+          </svg>
+        </div>
+        <div class="form-field">
+          <label for="tel">Телефон</label>
+          <input type="tel" name="tel" id="tel" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/sprite.svg#icon-call"></use>
+          </svg>
+        </div>
+        <div class="form-field">
+          <label for="mail">Пошта</label>
+          <input type="mail" type="email" name="mail" id="mail" />
+          <svg class="form-icon" width="18" height="18">
+            <use href="./images/sprite.svg#icon-mail"></use>
+          </svg>
+        </div>
+        <div class="form-field">
+          <label for="comment">Коментар</label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Введіть текст"
+          ></textarea>
+        </div>
+        <div class="check">
+          <input
+            class="checkbox"
+            type="checkbox"
+            name="conditions"
+            id="conditions"
+          />
+          <span class="icon-check"></span>
+          <label for="conditions"
+            >Погоджуюся з розсилкою та приймаю
+            <a href="" class="conditions"> Умови договору</a></label
+          >
+        </div>
+        <button type="submit" class="button-submit">
+          <span class="button-submit-text">Відправити</span>
+        </button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
