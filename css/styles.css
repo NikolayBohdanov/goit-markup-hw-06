@@ -396,6 +396,7 @@ p {
   border-radius: 50%;
 
   background-color: var(--color-primary);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-modal:hover {
   color: var(--color-blue);
@@ -521,6 +522,10 @@ p {
   border: none;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-submit:focus,
+.button-submit:hover {
+  background-color: #188ce8;
 }
 .backdrop.is-hidden {
   visibility: hidden;
