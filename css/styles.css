@@ -451,11 +451,13 @@ p {
 .form-field textarea {
   min-height: 120px;
   padding: 12px 16px;
-  margin-bottom: 20px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+}
+.last-formfield {
+  margin-bottom: 20px;
 }
 .form-field textarea::placeholder {
   font-family: "Roboto";
@@ -791,7 +793,7 @@ p {
   color: var(--color-blue);
 }
 .logo-address {
-  margin-right: 70px;
+  margin-right: 96px;
 }
 .footer-container {
   display: flex;
@@ -818,9 +820,7 @@ p {
   align-items: center;
   justify-content: center;
 }
-.list {
-}
-.social-net-item {
+.social-net-item:not(:last-child) {
   margin-right: 10px;
 }
 .net-link {
